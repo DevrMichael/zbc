@@ -13,7 +13,57 @@ export default function Hero() {
         </p>
         <Button>Let&apos;s get started</Button>
       </div>
-      <div className={styles.projects}></div>
+      <div className={styles.projects}>
+        <div className={styles.singleProject}>
+          <div className={styles.projectImage}></div>
+          <div className={styles.projectText}>
+            <h6>Kitchen</h6>
+            <p>Abbys kitchen renovation</p>
+          </div>
+        </div>
+        <div className={styles.singleProject}>
+          <div className={styles.projectImage}></div>
+          <div className={styles.projectText}>
+            <h6>Kitchen</h6>
+            <p>Abbys kitchen renovation</p>
+          </div>
+        </div>
+        <div className={styles.singleProject}>
+          <div className={styles.projectImage}></div>
+          <div className={styles.projectText}>
+            <h6>Kitchen</h6>
+            <p>Abbys kitchen renovation</p>
+          </div>
+        </div>
+        <div className={styles.singleProject}>
+          <div className={styles.projectImage}></div>
+          <div className={styles.projectText}>
+            <h6>Kitchen</h6>
+            <p>Abbys kitchen renovation</p>
+          </div>
+        </div>
+        <div className={styles.singleProject}>
+          <div className={styles.projectImage}></div>
+          <div className={styles.projectText}>
+            <h6>Kitchen</h6>
+            <p>Abbys kitchen renovation</p>
+          </div>
+        </div>
+        <div className={styles.singleProject}>
+          <div className={styles.projectImage}></div>
+          <div className={styles.projectText}>
+            <h6>Kitchen</h6>
+            <p>Abbys kitchen renovation</p>
+          </div>
+        </div>
+        <div className={styles.singleProject}>
+          <div className={styles.projectImage}></div>
+          <div className={styles.projectText}>
+            <h6>Kitchen</h6>
+            <p>Abbys kitchen renovation</p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

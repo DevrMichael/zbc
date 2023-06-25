@@ -1,11 +1,14 @@
 @import '../../styles/custom.scss';
 
 .container {
+  display: flex;
   width: 90%;
   padding-block: 70px;
   margin: auto;
+
   .content {
-    width: 50%;
+    width: 70%;
+    padding-right: 20px;
 
     h1 {
       font-size: 56px;
@@ -24,6 +27,44 @@
 
       &:hover {
         background-color: #df8380;
+      }
+    }
+  }
+
+  .projects {
+    width: 90%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 58%;
+    gap: 20px;
+
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+
+    .singleProject {
+      .projectImage {
+        background-image: url('./assets/project-image-example.jpeg');
+        min-height: 450px;
+        width: 100%;
+        border-radius: 3%;
+      }
+      .projectText {
+        display: block;
+        margin: auto;
+        padding: 40px 10px;
+
+        h6 {
+          font-weight: 600;
+        }
+
+        p {
+          color: gray;
+        }
+      }
+
+      p,
+      h6 {
+        font-size: 14px;
       }
     }
   }
