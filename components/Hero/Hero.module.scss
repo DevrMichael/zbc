@@ -1,0 +1,19 @@
+.container {
+  width: 90%;
+  padding-block: 70px;
+  margin: auto;
+  .content {
+    width: 50%;
+
+    h1 {
+      font-size: 56px;
+      font-weight: 600;
+      padding-top: 50px;
+    }
+
+    p {
+      line-height: 35px;
+      color: #76808f;
+    }
+  }
+}
