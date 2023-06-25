@@ -1,0 +1,40 @@
+@import '../../styles/custom.scss';
+
+.container {
+  background-color: #f7fbfe;
+  padding-block: 50px;
+
+  h1 {
+    text-align: center;
+  }
+
+  .tjenester {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+
+    .tjeneste {
+      width: 40%;
+      padding: 10px;
+
+      .icon {
+        color: $primary;
+        width: 100%;
+        font-size: 1.6rem;
+        padding-block: 20px;
+      }
+
+      h3 {
+        font-size: 24px;
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+        color: #76808f;
+      }
+    }
+  }
+}

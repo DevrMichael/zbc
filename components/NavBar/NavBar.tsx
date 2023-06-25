@@ -5,7 +5,7 @@ import { Button } from 'react-bootstrap';
 export default function NavBar() {
   return (
     <div className={styles.container}>
-      <div className={styles.navLogo}></div>
+      <a href="#" className={styles.navLogo}></a>
       <nav>
         <a href="#">Om Oss</a>
         <a href="#">Tjenester</a>
