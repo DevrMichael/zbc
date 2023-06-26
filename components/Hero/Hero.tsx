@@ -1,6 +1,8 @@
 import React from 'react';
 import styles from './Hero.module.scss';
 import { Button } from 'react-bootstrap';
+import projects from './data/projects';
+import Image from 'next/image';
 
 export default function Hero() {
   return (
@@ -14,55 +16,25 @@ export default function Hero() {
         <Button>Let&apos;s get started</Button>
       </div>
       <div className={styles.projects}>
-        <div className={styles.singleProject}>
-          <div className={styles.projectImage}></div>
-          <div className={styles.projectText}>
-            <h6>Kitchen</h6>
-            <p>Abbys kitchen renovation</p>
-          </div>
-        </div>
-        <div className={styles.singleProject}>
-          <div className={styles.projectImage}></div>
-          <div className={styles.projectText}>
-            <h6>Kitchen</h6>
-            <p>Abbys kitchen renovation</p>
-          </div>
-        </div>
-        <div className={styles.singleProject}>
-          <div className={styles.projectImage}></div>
-          <div className={styles.projectText}>
-            <h6>Kitchen</h6>
-            <p>Abbys kitchen renovation</p>
-          </div>
-        </div>
-        <div className={styles.singleProject}>
-          <div className={styles.projectImage}></div>
-          <div className={styles.projectText}>
-            <h6>Kitchen</h6>
-            <p>Abbys kitchen renovation</p>
-          </div>
-        </div>
-        <div className={styles.singleProject}>
-          <div className={styles.projectImage}></div>
-          <div className={styles.projectText}>
-            <h6>Kitchen</h6>
-            <p>Abbys kitchen renovation</p>
-          </div>
-        </div>
-        <div className={styles.singleProject}>
-          <div className={styles.projectImage}></div>
-          <div className={styles.projectText}>
-            <h6>Kitchen</h6>
-            <p>Abbys kitchen renovation</p>
-          </div>
-        </div>
-        <div className={styles.singleProject}>
-          <div className={styles.projectImage}></div>
-          <div className={styles.projectText}>
-            <h6>Kitchen</h6>
-            <p>Abbys kitchen renovation</p>
-          </div>
-        </div>
+        {projects.map((project: any) => {
+          return (
+            <div key={project.id} className={styles.singleProject}>
+              <div>
+                <Image
+                  className={styles.projectImage}
+                  src={project.image}
+                  alt=""
+                  width={300}
+                  height={350}
+                />
+              </div>
+              <div className={styles.projectText}>
+                <h6>{project.title}</h6>
+                <p>{project.description}</p>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
