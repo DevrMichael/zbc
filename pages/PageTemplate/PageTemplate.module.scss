@@ -1,0 +1,20 @@
+.container {
+  width: 90%;
+  margin: auto;
+  padding-block: 50px;
+
+  .content {
+    display: flex;
+    justify-content: space-around;
+    padding-block: 40px;
+
+    p {
+      width: 50%;
+      color: gray;
+    }
+
+    img {
+      border-radius: 7px;
+    }
+  }
+}
