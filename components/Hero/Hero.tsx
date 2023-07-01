@@ -23,8 +23,8 @@ export default function Hero() {
                 className={styles.projectImage}
                 src={project.image}
                 alt=""
-                width={300}
-                height={450}
+                width={500}
+                height={400}
               />
               <div className={styles.projectText}>
                 <h6>{project.title}</h6>

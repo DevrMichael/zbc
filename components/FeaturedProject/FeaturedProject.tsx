@@ -10,13 +10,13 @@ export default function FeaturedProject() {
     <div className={styles.container}>
       <div className={styles.imagesContainer}>
         <div className={styles.imageWithHeader}>
-          <Image src={image} alt="Alt text" width={400} height={530} />
+          <Image src={image} alt="Alt text" width={450} height={530} />
           <h5>
             <a href="#">View project</a> <FontAwesomeIcon icon={faArrowRight} />
           </h5>
         </div>
         <div className={styles.singleImage}>
-          <Image src={image} alt="Alt text" width={400} height={530} />
+          <Image src={image} alt="Alt text" width={450} height={530} />
         </div>
       </div>
       <div className={styles.textContainer}>
