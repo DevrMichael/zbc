@@ -6,6 +6,7 @@ import logo from '../../assets/zenith-bygg-consult-as.png';
 export default function Footer() {
   return (
     <div className={styles.container}>
+      <hr />
       <div className={styles.links}>
         <div>
           <h5>Renovering</h5>
@@ -23,7 +24,6 @@ export default function Footer() {
           <a href="#">Våre Samarbeidspartnere</a>
         </div>
       </div>
-      <hr />
       <div className={styles.copyrightSection}>
         <a href="#">
           <Image src={logo} alt="alt" width={130} height={50} />
