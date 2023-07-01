@@ -1,0 +1,57 @@
+.container {
+  display: flex;
+  width: 85%;
+  margin: auto;
+  padding-block: 90px;
+
+  img {
+    border-radius: 9px;
+  }
+
+  .imagesContainer {
+    display: flex;
+
+    .imageWithHeader {
+      h5 {
+        font-size: 20px;
+        padding-top: 10px;
+      }
+
+      a {
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      a,
+      svg {
+        color: #e7322c;
+      }
+    }
+
+    .singleImage {
+      margin-left: -20px;
+      margin-top: 200px;
+    }
+  }
+
+  .textContainer {
+    padding-left: 20px;
+    width: 30%;
+    margin: auto;
+    color: #fa8c46;
+
+    h3 {
+      font-size: 30px;
+    }
+
+    h5 {
+      font-size: 20px;
+    }
+
+    .quoteIcon {
+      color: #fa8b4676;
+      font-size: 2rem;
+      margin-left: -35px;
+    }
+  }
+}

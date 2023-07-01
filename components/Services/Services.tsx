@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Tjenester.module.scss';
+import styles from './Services.module.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faBuilding,
@@ -11,7 +11,7 @@ import {
   faWeightScale,
 } from '@fortawesome/free-solid-svg-icons';
 
-export default function Tjenester() {
+export default function Services() {
   return (
     <div className={styles.container}>
       <h1>Våre tjenester:</h1>

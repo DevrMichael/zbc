@@ -8,7 +8,7 @@
 
   .content {
     width: 70%;
-    padding-right: 20px;
+    padding-right: 40px;
 
     h1 {
       font-size: 56px;
@@ -24,6 +24,8 @@
     button {
       background-color: $primary;
       border: none;
+      padding: 15px 60px;
+      margin-top: 35px;
 
       &:hover {
         background-color: #df8380;
@@ -35,7 +37,7 @@
     width: 90%;
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 58%;
+    gap: 20px;
 
     overflow-x: auto;
     overscroll-behavior-inline: contain;
