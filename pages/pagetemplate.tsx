@@ -1,7 +1,7 @@
 import React from 'react';
-import styles from './PageTemplate.module.scss';
+import styles from './styles/PageTemplate.module.scss';
 import Image from 'next/image';
-import image from '../../components/Hero/assets/project-1.jpeg';
+import image from '../components/Hero/assets/project-1.jpeg';
 
 export default function PageTemplate() {
   return (

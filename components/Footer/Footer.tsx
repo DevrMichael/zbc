@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Footer.module.scss';
 import Image from 'next/image';
 import logo from '../../assets/zenith-bygg-consult-as.png';
+import Link from 'next/link';
 
 export default function Footer() {
   return (
@@ -25,9 +26,9 @@ export default function Footer() {
         </div>
       </div>
       <div className={styles.copyrightSection}>
-        <a href="#">
-          <Image src={logo} alt="alt" width={130} height={50} />
-        </a>
+        <Link href={'/'}>
+          <Image src={logo} alt="alt" width={160} height={45} />
+        </Link>
         <p>Copyright © 2023 Zenith Bygg Consult AS. All rights reserved.</p>
       </div>
     </div>

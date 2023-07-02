@@ -5,7 +5,7 @@ import Hero from '@/components/Hero/Hero';
 import Services from '@/components/Services/Services';
 import FeaturedProject from '@/components/FeaturedProject/FeaturedProject';
 import Footer from '@/components/Footer/Footer';
-import PageTemplate from './PageTemplate/PageTemplate';
+import PageTemplate from './pagetemplate';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -18,11 +18,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <NavBar />
       <Hero />
       <Services />
       <FeaturedProject />
-      <Footer />
       <PageTemplate />
     </>
   );
