@@ -127,6 +127,19 @@ export default function PageTemplate() {
             <p>Beskrivelse</p>
           </div>
         </div>
+        <div className={projectStyles.enkeltProsjekt}>
+          <Image
+            className={projectStyles.projectImage}
+            src={projects[0].image}
+            alt=""
+            width={300}
+            height={400}
+          />
+          <div className={projectStyles.projectText}>
+            <h6>Tittel</h6>
+            <p>Beskrivelse</p>
+          </div>
+        </div>
       </div>
     </div>
   );
