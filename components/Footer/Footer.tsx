@@ -11,18 +11,18 @@ export default function Footer() {
       <div className={styles.links}>
         <div>
           <h5>Renovering</h5>
-          <a href="#">Alle tjenester</a>
-          <a href="#">Prosjektoversikt</a>
+          <a href="tjenester">Alle tjenester</a>
+          <a href="prosjekter">Prosjektoversikt</a>
         </div>
         <div>
           <h5>Investering</h5>
-          <a href="#">Eiendomsinvestering</a>
+          <a href="eiendomsinvestering">Eiendomsinvestering</a>
         </div>
         <div>
           <h5>Firma</h5>
-          <a href="#">Om Oss</a>
-          <a href="#">Kontakt Oss</a>
-          <a href="#">Våre Samarbeidspartnere</a>
+          <a href="omoss">Om Oss</a>
+          <a href="kontaktoss">Kontakt Oss</a>
+          <a href="samarbeidspartnere">Våre Samarbeidspartnere</a>
         </div>
       </div>
       <div className={styles.copyrightSection}>
