@@ -1,0 +1,82 @@
+.container {
+  padding-block: 60px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+
+  .imageSection {
+    min-width: 50%;
+
+    h5 {
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 16px;
+      color: gray;
+    }
+
+    .allImages {
+      display: flex;
+      gap: 10px;
+
+      img {
+        border-radius: 7px;
+      }
+
+      .verticalImages {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+    }
+  }
+  .projectInfoSection {
+    h4 {
+      font-size: 16px;
+      font-weight: 600;
+    }
+
+    .projectDetails {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+
+      p {
+        font-size: 14px;
+        margin: 0;
+        line-height: 26px;
+      }
+
+      svg {
+        font-size: 26px;
+        margin: auto 0;
+        padding-right: 25px;
+      }
+
+      .projectDetail {
+        display: flex;
+        flex-direction: row;
+
+        .subtext {
+          color: gray;
+        }
+      }
+
+      .projectText {
+        margin: auto 0;
+      }
+    }
+  }
+
+  .projectDescription {
+    padding-top: 30px;
+
+    p {
+      font-size: 16px;
+      color: gray;
+    }
+  }
+}
