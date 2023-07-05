@@ -11,6 +11,7 @@ import {
   faComments,
   faUser,
 } from '@fortawesome/free-regular-svg-icons';
+import { Button } from 'react-bootstrap';
 
 export default function index() {
   return (
@@ -71,6 +72,7 @@ export default function index() {
             particular the kitchen and the smaller bedroom.
           </p>
         </div>
+        <Button>See all project images</Button>
       </div>
     </div>
   );

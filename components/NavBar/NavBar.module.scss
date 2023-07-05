@@ -46,4 +46,29 @@
       }
     }
   }
+
+  .dropdownToggle {
+    background-color: white;
+    border: none;
+    color: black;
+    font-size: 14px;
+
+    &:hover {
+      background-color: unset !important;
+      border: unset !important;
+      color: #e7322d;
+    }
+  }
+
+  .dropdownToggleOptions {
+    font-size: 14px;
+
+    > a {
+      padding-block: 10px;
+
+      &:active {
+        background-color: #e7322d;
+      }
+    }
+  }
 }

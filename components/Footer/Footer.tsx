@@ -22,7 +22,6 @@ export default function Footer() {
           <h5>Firma</h5>
           <a href="omoss">Om Oss</a>
           <a href="kontaktoss">Kontakt Oss</a>
-          <a href="samarbeidspartnere">Våre Samarbeidspartnere</a>
         </div>
       </div>
       <div className={styles.copyrightSection}>
