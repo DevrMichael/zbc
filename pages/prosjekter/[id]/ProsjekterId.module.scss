@@ -11,6 +11,7 @@
 
     h5 {
       font-weight: 600;
+      letter-spacing: -1px;
     }
 
     p {
@@ -34,6 +35,9 @@
     }
   }
   .projectInfoSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     h4 {
       font-size: 16px;
       font-weight: 600;
