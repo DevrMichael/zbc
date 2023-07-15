@@ -1,6 +1,22 @@
 @import '../../styles/custom.scss';
 
 .container {
+  @media only screen and (max-width: 730px) {
+    display: block;
+    width: 100%;
+    padding-block: 20px;
+
+    .content {
+      width: 95% !important;
+      margin: auto;
+      text-align: center;
+    }
+
+    .projects {
+      padding-block: 90px;
+    }
+  }
+
   display: flex;
   width: 90%;
   padding-block: 100px;
