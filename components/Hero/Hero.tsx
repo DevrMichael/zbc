@@ -19,15 +19,19 @@ export default function Hero() {
         {projects.map((project: any) => {
           return (
             <div key={project.id} className={styles.singleProject}>
-              <Image
-                className={styles.projectImage}
-                src={project.image}
-                alt=""
-                width={500}
-                height={400}
-              />
+              <a href="#">
+                <Image
+                  className={styles.projectImage}
+                  src={project.image}
+                  alt=""
+                  width={500}
+                  height={400}
+                />
+              </a>
               <div className={styles.projectText}>
-                <h6>{project.title}</h6>
+                <a href="#">
+                  <h6>{project.title}</h6>
+                </a>
                 <p>{project.description}</p>
               </div>
             </div>
