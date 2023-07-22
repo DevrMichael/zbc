@@ -12,6 +12,7 @@
     display: flex;
 
     .imageWithHeader {
+      position: relative;
       h5 {
         font-size: 20px;
         padding-top: 10px;
@@ -29,8 +30,25 @@
     }
 
     .singleImage {
+      position: relative;
       margin-left: -40px;
       margin-top: 200px;
+
+      .redArrow {
+        position: absolute;
+        top: 250px;
+        left: -60px;
+      }
+    }
+
+    .imageText {
+      position: absolute;
+      color: #e7322c;
+      top: 20px;
+      left: 10px;
+      font-weight: 500;
+      font-size: 1rem;
+      text-transform: uppercase;
     }
   }
 
