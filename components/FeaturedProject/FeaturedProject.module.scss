@@ -81,3 +81,16 @@
     padding-block: 60px;
   }
 }
+
+@media screen and (max-width: 750px) {
+  .container {
+    .imagesContainer {
+      display: block;
+      width: 100%;
+    }
+
+    .singleImage {
+      width: 100%;
+    }
+  }
+}

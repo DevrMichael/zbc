@@ -24,8 +24,11 @@ export default function Hero() {
                   className={styles.projectImage}
                   src={project.image}
                   alt=""
-                  width={500}
-                  height={400}
+                  style={{
+                    width: '400px',
+                    height: '400px',
+                    objectFit: 'cover',
+                  }}
                 />
               </a>
               <div className={styles.projectText}>

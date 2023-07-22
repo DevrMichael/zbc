@@ -72,3 +72,23 @@
     }
   }
 }
+
+@media screen and (max-width: 750px) {
+  .container {
+    justify-content: space-between;
+
+    nav > a,
+    nav > button {
+      display: none;
+    }
+    .dropdownToggle {
+      display: none;
+    }
+
+    .navLogo {
+      width: 20%;
+      margin-left: 10px;
+      padding-block: 20px;
+    }
+  }
+}

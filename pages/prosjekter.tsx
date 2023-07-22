@@ -33,7 +33,11 @@ export default function PageTemplate() {
           a succession of ever-larger offices in downtown Manhattan, along with
           a growing network of the nation’s most qualified general contractors.
         </p>
-        <Image src={image} alt="" width={400} height={500} />
+        <Image
+          src={image}
+          alt=""
+          style={{ width: '400px', height: '500px', objectFit: 'cover' }}
+        />
       </div>
       <div className={projectStyles.prosjekter}>
         <div className={projectStyles.enkeltProsjekt}>
@@ -41,8 +45,7 @@ export default function PageTemplate() {
             className={projectStyles.projectImage}
             src={projects[0].image}
             alt=""
-            width={300}
-            height={400}
+            style={{ width: '300px', height: '500px', objectFit: 'cover' }}
           />
           <div className={projectStyles.projectText}>
             <h6>Tittel</h6>
@@ -54,8 +57,7 @@ export default function PageTemplate() {
             className={projectStyles.projectImage}
             src={projects[0].image}
             alt=""
-            width={300}
-            height={400}
+            style={{ width: '300px', height: '500px', objectFit: 'cover' }}
           />
           <div className={projectStyles.projectText}>
             <h6>Tittel</h6>
@@ -67,8 +69,7 @@ export default function PageTemplate() {
             className={projectStyles.projectImage}
             src={projects[0].image}
             alt=""
-            width={300}
-            height={400}
+            style={{ width: '300px', height: '500px', objectFit: 'cover' }}
           />
           <div className={projectStyles.projectText}>
             <h6>Tittel</h6>
@@ -80,8 +81,7 @@ export default function PageTemplate() {
             className={projectStyles.projectImage}
             src={projects[0].image}
             alt=""
-            width={300}
-            height={400}
+            style={{ width: '300px', height: '500px', objectFit: 'cover' }}
           />
           <div className={projectStyles.projectText}>
             <h6>Tittel</h6>
@@ -93,8 +93,7 @@ export default function PageTemplate() {
             className={projectStyles.projectImage}
             src={projects[0].image}
             alt=""
-            width={300}
-            height={400}
+            style={{ width: '300px', height: '500px', objectFit: 'cover' }}
           />
           <div className={projectStyles.projectText}>
             <h6>Tittel</h6>
@@ -106,8 +105,7 @@ export default function PageTemplate() {
             className={projectStyles.projectImage}
             src={projects[0].image}
             alt=""
-            width={300}
-            height={400}
+            style={{ width: '300px', height: '500px', objectFit: 'cover' }}
           />
           <div className={projectStyles.projectText}>
             <h6>Tittel</h6>
@@ -119,8 +117,7 @@ export default function PageTemplate() {
             className={projectStyles.projectImage}
             src={projects[0].image}
             alt=""
-            width={300}
-            height={400}
+            style={{ width: '300px', height: '500px', objectFit: 'cover' }}
           />
           <div className={projectStyles.projectText}>
             <h6>Tittel</h6>
@@ -132,8 +129,7 @@ export default function PageTemplate() {
             className={projectStyles.projectImage}
             src={projects[0].image}
             alt=""
-            width={300}
-            height={400}
+            style={{ width: '300px', height: '500px', objectFit: 'cover' }}
           />
           <div className={projectStyles.projectText}>
             <h6>Tittel</h6>

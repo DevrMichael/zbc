@@ -43,7 +43,11 @@ export default function PageTemplate() {
             Ta kontakt for gratis befaring og et uforpliktende tilbud.
           </p>
         </div>
-        <Image src={image} alt="" width={500} height={500} />
+        <Image
+          src={image}
+          alt=""
+          style={{ width: '400px', height: '500px', objectFit: 'cover' }}
+        />
       </div>
     </div>
   );

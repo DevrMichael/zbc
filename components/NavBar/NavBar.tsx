@@ -35,7 +35,9 @@ export default function NavBar() {
         </Dropdown>
         <a href="prosjekter">Prosjekter</a>
         <a href="eiendomsinvestering">Eiendomsinvestering</a>
-        <Button variant="outline-primary">Kontakt Oss</Button>
+        <Link href="/kontaktoss">
+          <Button variant="outline-primary">Kontakt Oss</Button>
+        </Link>
       </nav>
     </div>
   );

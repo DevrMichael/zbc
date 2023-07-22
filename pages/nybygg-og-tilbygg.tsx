@@ -28,7 +28,11 @@ export default function PageTemplate() {
           <br />
           Ta gjerne kontakt med oss for å diskutere ditt drømmeprosjekt.
         </p>
-        <Image src={image} alt="" width={400} height={500} />
+        <Image
+          src={image}
+          alt=""
+          style={{ width: '400px', height: '500px', objectFit: 'cover' }}
+        />
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
 .container {
-  width: 90%;
+  width: 80%;
   margin: auto;
   padding-block: 50px;
 
@@ -20,9 +20,14 @@
     display: flex;
     justify-content: space-around;
     padding-block: 40px;
+    gap: 50px;
+
+    p,
+    li {
+      width: 90%;
+    }
 
     p {
-      width: 60%;
       color: gray;
     }
 
