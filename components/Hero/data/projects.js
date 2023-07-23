@@ -6,21 +6,21 @@ import project4 from '../assets/project-4.jpeg';
 const projects = [
   {
     id: 1,
-    title: 'Skillebekk',
-    description: 'Totalrenovering av leilighet',
-    image: project1,
-  },
-  {
-    id: 2,
     title: 'Majorstua',
     description: 'Totalrenovering av leilighet',
     image: project2,
   },
   {
-    id: 3,
+    id: 2,
     title: 'Tøyen',
     description: 'Totalrenovering av leilighet',
     image: project3,
+  },
+  {
+    id: 3,
+    title: 'Skillebekk',
+    description: 'Totalrenovering av leilighet',
+    image: project1,
   },
   {
     id: 4,
