@@ -111,48 +111,6 @@ export default function PageTemplate() {
             </div>
           </Link>
         </div>
-        <div className={projectStyles.enkeltProsjekt}>
-          <Link href={'prosjekt-6'}>
-            <Image
-              className={projectStyles.projectImage}
-              src={projects[0].image}
-              alt=""
-              style={{ width: '300px', height: '500px', objectFit: 'cover' }}
-            />
-            <div className={projectStyles.projectText}>
-              <h6>Tittel</h6>
-              <p>Beskrivelse</p>
-            </div>
-          </Link>
-        </div>
-        <div className={projectStyles.enkeltProsjekt}>
-          <Link href={'prosjekt-7'}>
-            <Image
-              className={projectStyles.projectImage}
-              src={projects[0].image}
-              alt=""
-              style={{ width: '300px', height: '500px', objectFit: 'cover' }}
-            />
-            <div className={projectStyles.projectText}>
-              <h6>Tittel</h6>
-              <p>Beskrivelse</p>
-            </div>
-          </Link>
-        </div>
-        <div className={projectStyles.enkeltProsjekt}>
-          <Link href={'prosjekt-8'}>
-            <Image
-              className={projectStyles.projectImage}
-              src={projects[0].image}
-              alt=""
-              style={{ width: '300px', height: '500px', objectFit: 'cover' }}
-            />
-            <div className={projectStyles.projectText}>
-              <h6>Tittel</h6>
-              <p>Beskrivelse</p>
-            </div>
-          </Link>
-        </div>
       </div>
     </div>
   );
