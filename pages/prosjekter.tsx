@@ -4,6 +4,7 @@ import Image from 'next/image';
 import image from '../components/Hero/assets/project-1.jpeg';
 import projects from '../components/Hero/data/projects';
 import projectStyles from './styles/Prosjekter.module.scss';
+import Link from 'next/link';
 
 export default function PageTemplate() {
   return (
@@ -41,100 +42,116 @@ export default function PageTemplate() {
       </div>
       <div className={projectStyles.prosjekter}>
         <div className={projectStyles.enkeltProsjekt}>
-          <Image
-            className={projectStyles.projectImage}
-            src={projects[0].image}
-            alt=""
-            style={{ width: '300px', height: '500px', objectFit: 'cover' }}
-          />
-          <div className={projectStyles.projectText}>
-            <h6>Tittel</h6>
-            <p>Beskrivelse</p>
-          </div>
+          <Link href={'prosjekt-1'}>
+            <Image
+              className={projectStyles.projectImage}
+              src={projects[0].image}
+              alt=""
+              style={{ width: '300px', height: '500px', objectFit: 'cover' }}
+            />
+            <div className={projectStyles.projectText}>
+              <h6>Tittel</h6>
+              <p>Beskrivelse</p>
+            </div>
+          </Link>
         </div>
         <div className={projectStyles.enkeltProsjekt}>
-          <Image
-            className={projectStyles.projectImage}
-            src={projects[0].image}
-            alt=""
-            style={{ width: '300px', height: '500px', objectFit: 'cover' }}
-          />
-          <div className={projectStyles.projectText}>
-            <h6>Tittel</h6>
-            <p>Beskrivelse</p>
-          </div>
+          <Link href={'prosjekt-2'}>
+            <Image
+              className={projectStyles.projectImage}
+              src={projects[0].image}
+              alt=""
+              style={{ width: '300px', height: '500px', objectFit: 'cover' }}
+            />
+            <div className={projectStyles.projectText}>
+              <h6>Tittel</h6>
+              <p>Beskrivelse</p>
+            </div>
+          </Link>
         </div>
         <div className={projectStyles.enkeltProsjekt}>
-          <Image
-            className={projectStyles.projectImage}
-            src={projects[0].image}
-            alt=""
-            style={{ width: '300px', height: '500px', objectFit: 'cover' }}
-          />
-          <div className={projectStyles.projectText}>
-            <h6>Tittel</h6>
-            <p>Beskrivelse</p>
-          </div>
+          <Link href={'prosjekt-3'}>
+            <Image
+              className={projectStyles.projectImage}
+              src={projects[0].image}
+              alt=""
+              style={{ width: '300px', height: '500px', objectFit: 'cover' }}
+            />
+            <div className={projectStyles.projectText}>
+              <h6>Tittel</h6>
+              <p>Beskrivelse</p>
+            </div>
+          </Link>
         </div>
         <div className={projectStyles.enkeltProsjekt}>
-          <Image
-            className={projectStyles.projectImage}
-            src={projects[0].image}
-            alt=""
-            style={{ width: '300px', height: '500px', objectFit: 'cover' }}
-          />
-          <div className={projectStyles.projectText}>
-            <h6>Tittel</h6>
-            <p>Beskrivelse</p>
-          </div>
+          <Link href={'prosjekt-4'}>
+            <Image
+              className={projectStyles.projectImage}
+              src={projects[0].image}
+              alt=""
+              style={{ width: '300px', height: '500px', objectFit: 'cover' }}
+            />
+            <div className={projectStyles.projectText}>
+              <h6>Tittel</h6>
+              <p>Beskrivelse</p>
+            </div>
+          </Link>
         </div>
         <div className={projectStyles.enkeltProsjekt}>
-          <Image
-            className={projectStyles.projectImage}
-            src={projects[0].image}
-            alt=""
-            style={{ width: '300px', height: '500px', objectFit: 'cover' }}
-          />
-          <div className={projectStyles.projectText}>
-            <h6>Tittel</h6>
-            <p>Beskrivelse</p>
-          </div>
+          <Link href={'prosjekt-5'}>
+            <Image
+              className={projectStyles.projectImage}
+              src={projects[0].image}
+              alt=""
+              style={{ width: '300px', height: '500px', objectFit: 'cover' }}
+            />
+            <div className={projectStyles.projectText}>
+              <h6>Tittel</h6>
+              <p>Beskrivelse</p>
+            </div>
+          </Link>
         </div>
         <div className={projectStyles.enkeltProsjekt}>
-          <Image
-            className={projectStyles.projectImage}
-            src={projects[0].image}
-            alt=""
-            style={{ width: '300px', height: '500px', objectFit: 'cover' }}
-          />
-          <div className={projectStyles.projectText}>
-            <h6>Tittel</h6>
-            <p>Beskrivelse</p>
-          </div>
+          <Link href={'prosjekt-6'}>
+            <Image
+              className={projectStyles.projectImage}
+              src={projects[0].image}
+              alt=""
+              style={{ width: '300px', height: '500px', objectFit: 'cover' }}
+            />
+            <div className={projectStyles.projectText}>
+              <h6>Tittel</h6>
+              <p>Beskrivelse</p>
+            </div>
+          </Link>
         </div>
         <div className={projectStyles.enkeltProsjekt}>
-          <Image
-            className={projectStyles.projectImage}
-            src={projects[0].image}
-            alt=""
-            style={{ width: '300px', height: '500px', objectFit: 'cover' }}
-          />
-          <div className={projectStyles.projectText}>
-            <h6>Tittel</h6>
-            <p>Beskrivelse</p>
-          </div>
+          <Link href={'prosjekt-7'}>
+            <Image
+              className={projectStyles.projectImage}
+              src={projects[0].image}
+              alt=""
+              style={{ width: '300px', height: '500px', objectFit: 'cover' }}
+            />
+            <div className={projectStyles.projectText}>
+              <h6>Tittel</h6>
+              <p>Beskrivelse</p>
+            </div>
+          </Link>
         </div>
         <div className={projectStyles.enkeltProsjekt}>
-          <Image
-            className={projectStyles.projectImage}
-            src={projects[0].image}
-            alt=""
-            style={{ width: '300px', height: '500px', objectFit: 'cover' }}
-          />
-          <div className={projectStyles.projectText}>
-            <h6>Tittel</h6>
-            <p>Beskrivelse</p>
-          </div>
+          <Link href={'prosjekt-8'}>
+            <Image
+              className={projectStyles.projectImage}
+              src={projects[0].image}
+              alt=""
+              style={{ width: '300px', height: '500px', objectFit: 'cover' }}
+            />
+            <div className={projectStyles.projectText}>
+              <h6>Tittel</h6>
+              <p>Beskrivelse</p>
+            </div>
+          </Link>
         </div>
       </div>
     </div>

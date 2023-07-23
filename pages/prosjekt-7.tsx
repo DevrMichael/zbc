@@ -9,7 +9,7 @@ interface ProsjektProps {
   imagesAfter: string[] | undefined;
 }
 
-const Prosjekt: React.FC<ProsjektProps> = ({ imagesBefore, imagesAfter }) => {
+const Prosjekt7: React.FC<ProsjektProps> = ({ imagesBefore, imagesAfter }) => {
   return (
     <div className={styles.container}>
       <div className={styles.tabsContainer}>
@@ -48,4 +48,4 @@ const Prosjekt: React.FC<ProsjektProps> = ({ imagesBefore, imagesAfter }) => {
   );
 };
 
-export default Prosjekt;
+export default Prosjekt7;
