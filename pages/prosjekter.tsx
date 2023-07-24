@@ -47,7 +47,7 @@ export default function PageTemplate() {
               className={projectStyles.projectImage}
               src={projects[0].image}
               alt=""
-              style={{ width: '300px', height: '500px', objectFit: 'cover' }}
+              style={{ width: '330px', height: '500px', objectFit: 'cover' }}
             />
             <div className={projectStyles.projectText}>
               <h6>Tittel</h6>
@@ -61,7 +61,7 @@ export default function PageTemplate() {
               className={projectStyles.projectImage}
               src={projects[0].image}
               alt=""
-              style={{ width: '300px', height: '500px', objectFit: 'cover' }}
+              style={{ width: '330px', height: '500px', objectFit: 'cover' }}
             />
             <div className={projectStyles.projectText}>
               <h6>Tittel</h6>
@@ -75,7 +75,7 @@ export default function PageTemplate() {
               className={projectStyles.projectImage}
               src={projects[0].image}
               alt=""
-              style={{ width: '300px', height: '500px', objectFit: 'cover' }}
+              style={{ width: '330px', height: '500px', objectFit: 'cover' }}
             />
             <div className={projectStyles.projectText}>
               <h6>Tittel</h6>
@@ -89,7 +89,7 @@ export default function PageTemplate() {
               className={projectStyles.projectImage}
               src={projects[0].image}
               alt=""
-              style={{ width: '300px', height: '500px', objectFit: 'cover' }}
+              style={{ width: '330px', height: '500px', objectFit: 'cover' }}
             />
             <div className={projectStyles.projectText}>
               <h6>Tittel</h6>
@@ -103,7 +103,7 @@ export default function PageTemplate() {
               className={projectStyles.projectImage}
               src={projects[0].image}
               alt=""
-              style={{ width: '300px', height: '500px', objectFit: 'cover' }}
+              style={{ width: '330px', height: '500px', objectFit: 'cover' }}
             />
             <div className={projectStyles.projectText}>
               <h6>Tittel</h6>

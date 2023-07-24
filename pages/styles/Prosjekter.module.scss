@@ -6,8 +6,15 @@
   padding-block: 70px;
 
   .enkeltProsjekt {
-    > img {
+    a {
+      text-decoration: none;
+    }
+
+    a > img {
       border-radius: 7px;
+      box-shadow: 7px 8px 9px -4px rgba(79, 79, 79, 0.75);
+      -webkit-box-shadow: 7px 8px 9px -4px rgba(79, 79, 79, 0.75);
+      -moz-box-shadow: 7px 8px 9px -4px rgba(79, 79, 79, 0.75);
     }
 
     .projectText {
@@ -18,6 +25,7 @@
       h6 {
         font-weight: 600;
         font-size: 20px;
+        color: #e7322d;
       }
 
       p {
