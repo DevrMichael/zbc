@@ -16,7 +16,7 @@ export default function FeaturedProject() {
           <Image
             src={before}
             alt="Alt text"
-            style={{ width: '100%', height: '500px', objectFit: 'cover' }}
+            style={{ width: '400px', height: '500px', objectFit: 'cover' }}
           />
           <h5>
             <a href="#">Se prosjekt</a> <FontAwesomeIcon icon={faArrowRight} />
@@ -31,9 +31,10 @@ export default function FeaturedProject() {
             className={styles.redArrow}
           />
           <Image
+            className={styles.afterImage}
             src={after}
             alt="Alt text"
-            style={{ width: '100%', height: '500px', objectFit: 'cover' }}
+            style={{ width: '400px', height: '500px', objectFit: 'cover' }}
           />
         </div>
       </div>
