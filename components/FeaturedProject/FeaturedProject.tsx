@@ -18,7 +18,7 @@ export default function FeaturedProject() {
             alt="Alt text"
             style={{ width: '400px', height: '500px', objectFit: 'cover' }}
           />
-          <h5>
+          <h5 className={styles.projectAnchor}>
             <a href="#">Se prosjekt</a> <FontAwesomeIcon icon={faArrowRight} />
           </h5>
         </div>
@@ -41,12 +41,12 @@ export default function FeaturedProject() {
       <div className={styles.textContainer}>
         <FontAwesomeIcon icon={faQuoteLeft} className={styles.quoteIcon} />
         <h2>
-          For years, when I went to other peoples homes, I wished I could have
-          spaces like these. Now I do. I am so very grateful.
+          Løft hjemmet ditt til sitt fulle potensiale med våre dyktige
+          håndverkere, ekspertene som kan gjøre drømmene dine til virkelighet.
         </h2>
         <br />
-        <h3>- Mickey</h3>
-        <h5>Kitchen, bathroom & laundry renovation</h5>
+        <h3>Skillebekk</h3>
+        <h5>Totalrenovering av leilighet</h5>
       </div>
     </div>
   );

@@ -8,10 +8,13 @@ export default function Hero() {
   return (
     <div className={styles.container}>
       <div className={styles.content}>
-        <h1>Your renovation, our expertise</h1>
+        <h1>
+          Fra Bolig til{' '}
+          <span className={styles.heroTagline}>Ditt Drømmehjem</span>
+        </h1>
         <p>
-          Hire the right general contractor and build your vision with Zenith
-          Bygg Consult.
+          Lei den rette entreprenøren og bygg din visjon med Zenith Bygg
+          Consult.
         </p>
         <Button>Let&apos;s get started</Button>
       </div>

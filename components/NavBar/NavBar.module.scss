@@ -27,8 +27,8 @@
 
     button {
       font-size: 13px;
-      border-color: #e7322d;
-      color: #e7322d;
+      border-color: #fa8b46;
+      color: #fa8b46;
 
       &:hover,
       :focus,
@@ -43,7 +43,7 @@
       text-decoration: none;
 
       &:hover {
-        color: #ce6768;
+        color: #fa8b46;
       }
     }
   }
@@ -57,7 +57,7 @@
     &:hover {
       background-color: unset !important;
       border: unset !important;
-      color: #e7322d;
+      color: #fa8b46;
     }
   }
 

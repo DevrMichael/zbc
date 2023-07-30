@@ -25,7 +25,11 @@
 
       a,
       svg {
-        color: #e7322c;
+        color: #fa8b46;
+
+        &:hover {
+          color: #e7322d;
+        }
       }
     }
 
