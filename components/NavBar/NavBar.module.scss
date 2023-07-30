@@ -1,7 +1,8 @@
 .container {
   background-color: white;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-inline: 2rem;
   position: sticky;
   top: 0;
   box-shadow: 0px 4px 23px -7px rgba(128, 125, 125, 0.75);
@@ -26,7 +27,7 @@
     font-size: 14px;
 
     button {
-      font-size: 13px;
+      font-size: 16px;
       border-color: #fa8b46;
       color: #fa8b46;
 
@@ -39,6 +40,7 @@
     }
 
     & > a {
+      font-size: 16px;
       color: black;
       text-decoration: none;
 
@@ -52,7 +54,7 @@
     background-color: white;
     border: none;
     color: black;
-    font-size: 14px;
+    font-size: 16px;
 
     &:hover {
       background-color: unset !important;
@@ -62,7 +64,7 @@
   }
 
   .dropdownToggleOptions {
-    font-size: 14px;
+    font-size: 16px;
 
     > a {
       padding-block: 10px;
