@@ -50,8 +50,8 @@ export default function PageTemplate() {
               style={{ width: '330px', height: '500px', objectFit: 'cover' }}
             />
             <div className={projectStyles.projectText}>
-              <h6>Tittel</h6>
-              <p>Beskrivelse</p>
+              <h6>Tøyen</h6>
+              <p>Totalrenovering</p>
             </div>
           </Link>
         </div>
@@ -64,8 +64,8 @@ export default function PageTemplate() {
               style={{ width: '330px', height: '500px', objectFit: 'cover' }}
             />
             <div className={projectStyles.projectText}>
-              <h6>Tittel</h6>
-              <p>Beskrivelse</p>
+              <h6>Majorstua</h6>
+              <p>Totalrenovering</p>
             </div>
           </Link>
         </div>
@@ -78,8 +78,8 @@ export default function PageTemplate() {
               style={{ width: '330px', height: '500px', objectFit: 'cover' }}
             />
             <div className={projectStyles.projectText}>
-              <h6>Tittel</h6>
-              <p>Beskrivelse</p>
+              <h6>Skillebekk</h6>
+              <p>Totalrenovering</p>
             </div>
           </Link>
         </div>
@@ -92,8 +92,8 @@ export default function PageTemplate() {
               style={{ width: '330px', height: '500px', objectFit: 'cover' }}
             />
             <div className={projectStyles.projectText}>
-              <h6>Tittel</h6>
-              <p>Beskrivelse</p>
+              <h6>Marienlyst</h6>
+              <p>Totalrenovering</p>
             </div>
           </Link>
         </div>
@@ -106,8 +106,8 @@ export default function PageTemplate() {
               style={{ width: '330px', height: '500px', objectFit: 'cover' }}
             />
             <div className={projectStyles.projectText}>
-              <h6>Tittel</h6>
-              <p>Beskrivelse</p>
+              <h6>Haugerud</h6>
+              <p>Totalrenovering</p>
             </div>
           </Link>
         </div>
