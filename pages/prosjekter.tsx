@@ -7,7 +7,7 @@ import tøyenImg from '../public/projects/Tøyen/Etter/tøyen_etter5.jpeg';
 import majorstuaImg from '../public/projects/Majorstua/Etter/majorstua_etter8.jpeg';
 import skillebekkImg from '../public/projects/Skillebekk/Etter/skillebekk_etter8.jpeg';
 import marienlystImg from '../public/projects/Marienlyst/Etter/marienlyst_etter5.jpeg';
-import haugerudImg from '../public/projects/Haugerud/Etter/haugerud_etter10.jpeg';
+import haugerudImg from '../public/projects/Haugerud/Etter/haugerud_etter1.jpeg';
 import projectStyles from './styles/Prosjekter.module.scss';
 import Link from 'next/link';
 
