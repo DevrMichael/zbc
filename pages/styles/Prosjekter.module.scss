@@ -21,16 +21,25 @@
       display: block;
       margin: auto;
       padding: 20px 10px;
+      text-transform: uppercase;
 
       h6 {
         font-weight: 600;
-        font-size: 20px;
-        color: #e7322d;
+        font-size: 18px;
+        color: #fa8b46;
       }
 
       p {
         color: gray;
         font-size: 16px;
+      }
+    }
+
+    .projectImage {
+      transition: transform 0.2s ease-in-out;
+
+      &:hover {
+        transform: scale(1.02);
       }
     }
   }

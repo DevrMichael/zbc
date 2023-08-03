@@ -1,8 +1,13 @@
 import React from 'react';
 import styles from './styles/PageTemplate.module.scss';
 import Image from 'next/image';
-import image from '../components/Hero/assets/project-1.jpeg';
+import image from '../components/Hero/assets/project-2.jpeg';
 import projects from '../components/Hero/data/projects';
+import tøyenImg from '../public/projects/Tøyen/Etter/tøyen_etter5.jpeg';
+import majorstuaImg from '../public/projects/Majorstua/Etter/majorstua_etter8.jpeg';
+import skillebekkImg from '../public/projects/Skillebekk/Etter/skillebekk_etter8.jpeg';
+import marienlystImg from '../public/projects/Marienlyst/Etter/marienlyst_etter5.jpeg';
+import haugerudImg from '../public/projects/Haugerud/Etter/haugerud_etter10.jpeg';
 import projectStyles from './styles/Prosjekter.module.scss';
 import Link from 'next/link';
 
@@ -42,24 +47,10 @@ export default function PageTemplate() {
       </div>
       <div className={projectStyles.prosjekter}>
         <div className={projectStyles.enkeltProsjekt}>
-          <Link href={'prosjekt-1'}>
-            <Image
-              className={projectStyles.projectImage}
-              src={projects[0].image}
-              alt=""
-              style={{ width: '330px', height: '500px', objectFit: 'cover' }}
-            />
-            <div className={projectStyles.projectText}>
-              <h6>Tøyen</h6>
-              <p>Totalrenovering</p>
-            </div>
-          </Link>
-        </div>
-        <div className={projectStyles.enkeltProsjekt}>
           <Link href={'prosjekt-2'}>
             <Image
               className={projectStyles.projectImage}
-              src={projects[0].image}
+              src={majorstuaImg}
               alt=""
               style={{ width: '330px', height: '500px', objectFit: 'cover' }}
             />
@@ -70,10 +61,24 @@ export default function PageTemplate() {
           </Link>
         </div>
         <div className={projectStyles.enkeltProsjekt}>
+          <Link href={'prosjekt-1'}>
+            <Image
+              className={projectStyles.projectImage}
+              src={tøyenImg}
+              alt=""
+              style={{ width: '330px', height: '500px', objectFit: 'cover' }}
+            />
+            <div className={projectStyles.projectText}>
+              <h6>Tøyen</h6>
+              <p>Totalrenovering</p>
+            </div>
+          </Link>
+        </div>
+        <div className={projectStyles.enkeltProsjekt}>
           <Link href={'prosjekt-3'}>
             <Image
               className={projectStyles.projectImage}
-              src={projects[0].image}
+              src={skillebekkImg}
               alt=""
               style={{ width: '330px', height: '500px', objectFit: 'cover' }}
             />
@@ -87,7 +92,7 @@ export default function PageTemplate() {
           <Link href={'prosjekt-4'}>
             <Image
               className={projectStyles.projectImage}
-              src={projects[0].image}
+              src={marienlystImg}
               alt=""
               style={{ width: '330px', height: '500px', objectFit: 'cover' }}
             />
@@ -101,7 +106,7 @@ export default function PageTemplate() {
           <Link href={'prosjekt-5'}>
             <Image
               className={projectStyles.projectImage}
-              src={projects[0].image}
+              src={haugerudImg}
               alt=""
               style={{ width: '330px', height: '500px', objectFit: 'cover' }}
             />
