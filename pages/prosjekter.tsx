@@ -47,7 +47,7 @@ export default function PageTemplate() {
       </div>
       <div className={projectStyles.prosjekter}>
         <div className={projectStyles.enkeltProsjekt}>
-          <Link href={'prosjekt-2'}>
+          <Link href={'prosjekt-1'}>
             <Image
               className={projectStyles.projectImage}
               src={majorstuaImg}
@@ -61,7 +61,7 @@ export default function PageTemplate() {
           </Link>
         </div>
         <div className={projectStyles.enkeltProsjekt}>
-          <Link href={'prosjekt-1'}>
+          <Link href={'prosjekt-2'}>
             <Image
               className={projectStyles.projectImage}
               src={tøyenImg}
