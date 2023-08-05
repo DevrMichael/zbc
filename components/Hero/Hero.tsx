@@ -17,7 +17,9 @@ export default function Hero() {
           Lei den rette entreprenøren og bygg din visjon med Zenith Bygg
           Consult.
         </p>
-        <Button>Let&apos;s get started</Button>
+        <Button>
+          <Link href={'prosjekter'}>Klikk for å se våre prosjekter</Link>
+        </Button>
       </div>
       <div className={styles.projects}>
         {projects.map((project: any) => {
