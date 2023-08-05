@@ -35,4 +35,16 @@
       border-radius: 7px;
     }
   }
+
+  .contactContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-block: 2rem;
+
+    h1 {
+      font-size: 2rem;
+      padding-block: 20px;
+    }
+  }
 }
