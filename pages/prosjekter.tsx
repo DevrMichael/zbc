@@ -1,8 +1,7 @@
 import React from 'react';
 import styles from './styles/PageTemplate.module.scss';
 import Image from 'next/image';
-import image from '../components/Hero/assets/project-2.jpeg';
-import projects from '../components/Hero/data/projects';
+import image from '../public/projects/Skillebekk/Etter/skillebekk_etter7.jpeg';
 import tøyenImg from '../public/projects/Tøyen/Etter/tøyen_etter5.jpeg';
 import majorstuaImg from '../public/projects/Majorstua/Etter/majorstua_etter8.jpeg';
 import skillebekkImg from '../public/projects/Skillebekk/Etter/skillebekk_etter8.jpeg';
@@ -20,24 +19,22 @@ export default function PageTemplate() {
       </div>
       <div className={styles.content}>
         <p>
-          Jean Brownhill, our founder, is a trained architect with years of
-          high-end residential and commercial renovation experience. Naturally,
-          she assumed she’d sail through her own home renovation. She didn’t.
-          After suffering a botched renovation and three New York winters
-          without heat, she started wondering how regular people—anyone without
-          her experience and professional credentials—could ever manage
-          renovating on their own.
+          Vår prosjektoversikt står som en bekreftelse på vårt urokkelige løfte
+          om å heve rom, gi dem nytt liv og forsterke deres funksjonelle og
+          estetiske appell. Hvert prosjekt inneholder en reise av nøye
+          planlegging, omhyggelig utførelse og en dyp forståelse for
+          designprinsipper.
           <br />
           <br />
-          She also realized that on the other side, general contractors
-          struggled to grow their businesses, often feeling pressure to take on
-          jobs they lacked the expertise to handle.
+          Utforsk vårt galleri, med Før og Etter bilder som er sammenstilt for å
+          fortelle historiene om hvordan vi forvandler boliger til å være preget
+          av høy kvalitet. Se hvordan vi forvandler ordinære rom til fengslende
+          miljøer, der eleganse, funksjonalitet og visuell tiltrekningskraft
+          møtes.
           <br />
           <br />
-          Jean saw the need for a new approach, and so in 2011 she started
-          Sweeten. Our company quickly grew from a desk in Jean’s spare room to
-          a succession of ever-larger offices in downtown Manhattan, along with
-          a growing network of the nation’s most qualified general contractors.
+          Klikk på våre prosjekter under for å få et innblikk i vår
+          renoveringsprosess.
         </p>
         <Image
           src={image}

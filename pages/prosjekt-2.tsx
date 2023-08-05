@@ -1,46 +1,61 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
 import styles from './styles/Prosjekt.module.scss';
 import Image from 'next/image';
+import projectImages from '../assets/projectImages';
+import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faArrowLeft } from '@fortawesome/free-solid-svg-icons';
 
-interface ProsjektProps {
-  imagesBefore: string[] | undefined;
-  imagesAfter: string[] | undefined;
-}
+const Prosjekt1: React.FC = () => {
+  const [activeTab, setActiveTab] = useState<string>('home');
 
-const Prosjekt2: React.FC<ProsjektProps> = ({ imagesBefore, imagesAfter }) => {
+  const handleTabSelect = (tab: string | null) => {
+    if (tab) {
+      setActiveTab(tab);
+    }
+  };
+
   return (
     <div className={styles.container}>
+      <Link href={'/prosjekter'} className={styles.backToProjectsLink}>
+        <FontAwesomeIcon icon={faArrowLeft} />
+        Tilbake til prosjekter
+      </Link>
+      <h2>Totalrenovering av bolig - Tøyen</h2>
       <div className={styles.tabsContainer}>
         <Tabs
-          defaultActiveKey="profile"
+          activeKey={activeTab}
+          onSelect={handleTabSelect}
           id="uncontrolled-tab-example"
           className="mb-3"
         >
           <Tab eventKey="home" title="Før">
-            {imagesBefore?.map((imageUrl, index) => (
-              <div key={`before_${index}`} className={styles.imageContainer}>
-                <Image
-                  src={imageUrl}
-                  alt={`Before Image ${index + 1}`}
-                  width={300}
-                  height={200}
-                />
-              </div>
-            ))}
+            {activeTab === 'home' &&
+              projectImages[1].before.map((image, index: number) => (
+                <div key={`before_${index}`} className={styles.imageContainer}>
+                  <Image
+                    src={image.image}
+                    alt={`Before Image ${index + 1}`}
+                    width={300}
+                    height={200}
+                  />
+                </div>
+              ))}
           </Tab>
           <Tab eventKey="profile" title="Etter">
-            {imagesAfter?.map((imageUrl, index) => (
-              <div key={`after_${index}`} className={styles.imageContainer}>
-                <Image
-                  src={imageUrl}
-                  alt={`After Image ${index + 1}`}
-                  width={300}
-                  height={200}
-                />
-              </div>
-            ))}
+            {activeTab === 'profile' &&
+              projectImages[1].after.map((image, index: number) => (
+                <div key={`after_${index}`} className={styles.imageContainer}>
+                  <Image
+                    src={image.image}
+                    alt={`After Image ${index + 1}`}
+                    width={300}
+                    height={200}
+                  />
+                </div>
+              ))}
           </Tab>
         </Tabs>
       </div>
@@ -48,4 +63,4 @@ const Prosjekt2: React.FC<ProsjektProps> = ({ imagesBefore, imagesAfter }) => {
   );
 };
 
-export default Prosjekt2;
+export default Prosjekt1;

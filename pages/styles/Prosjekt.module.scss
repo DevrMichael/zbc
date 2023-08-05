@@ -3,6 +3,35 @@
   margin: auto;
   padding-block: 50px;
 
+  h2 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .backToProjectsLink {
+    font-size: 18px;
+    color: #fa8b46;
+
+    svg {
+      padding-right: 5px;
+    }
+  }
+
   .tabsContainer {
+    display: flex;
+    flex-direction: column;
+
+    button {
+      color: #fa8b46;
+    }
+
+    div[role='tabpanel'] {
+      width: 87%;
+      margin: auto;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
   }
 }

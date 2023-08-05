@@ -3,6 +3,7 @@ import styles from './Hero.module.scss';
 import { Button } from 'react-bootstrap';
 import projects from './data/projects';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Hero() {
   return (
@@ -22,7 +23,7 @@ export default function Hero() {
         {projects.map((project: any) => {
           return (
             <div key={project.id} className={styles.singleProject}>
-              <a href="#">
+              <Link href={project.url}>
                 <Image
                   className={styles.projectImage}
                   src={project.image}
@@ -33,7 +34,7 @@ export default function Hero() {
                     objectFit: 'cover',
                   }}
                 />
-              </a>
+              </Link>
               <div className={styles.projectText}>
                 <a href="#">
                   <h6>{project.title}</h6>

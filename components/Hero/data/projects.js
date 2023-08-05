@@ -9,24 +9,28 @@ const projects = [
     title: 'Majorstua',
     description: 'Totalrenovering av leilighet',
     image: project2,
+    url: 'prosjekt-1',
   },
   {
     id: 2,
     title: 'Tøyen',
     description: 'Totalrenovering av leilighet',
     image: project3,
+    url: 'prosjekt-2',
   },
   {
     id: 3,
     title: 'Skillebekk',
     description: 'Totalrenovering av leilighet',
     image: project1,
+    url: 'prosjekt-3',
   },
   {
     id: 4,
     title: 'Marienlyst',
     description: 'Totalrenovering av leilighet',
     image: project4,
+    url: 'prosjekt-4',
   },
 ];
 
