@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles/PageTemplate.module.scss';
 import Image from 'next/image';
-import image from '../components/Hero/assets/project-1.jpeg';
+import image from '../public/tjenester/leie-og-utleie.jpeg';
 
 export default function PageTemplate() {
   return (
@@ -31,15 +31,12 @@ export default function PageTemplate() {
             <li>Mindre ressurskrevende og administrasjon</li>
             <li>Spar tid og penger på annonsering/visninger</li>
           </ul>
-          <p>
-            Gjør leieforholdet trygt, enkelt og problemfritt!Leie og utleie av
-            bolig
-          </p>
+          <p>Gjør leieforholdet trygt, enkelt og problemfritt!</p>
         </div>
         <Image
           src={image}
           alt=""
-          style={{ width: '400px', height: '500px', objectFit: 'cover' }}
+          style={{ width: '400px', height: '300px', objectFit: 'contain' }}
         />
       </div>
     </div>

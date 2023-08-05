@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles/PageTemplate.module.scss';
 import Image from 'next/image';
-import image from '../components/Hero/assets/project-1.jpeg';
+import image from '../public/tjenester/handverkertjenester.jpeg';
 
 export default function PageTemplate() {
   return (
@@ -46,7 +46,7 @@ export default function PageTemplate() {
         <Image
           src={image}
           alt=""
-          style={{ width: '400px', height: '500px', objectFit: 'cover' }}
+          style={{ width: '400px', height: '300px', objectFit: 'cover' }}
         />
       </div>
     </div>
