@@ -1,38 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Property Renovation Company Website
+
+This website is developed for a property renovation company, utilizing the power and flexibility of [Next.js](https://nextjs.org/) with TypeScript and SCSS. The project is bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app), leveraging these technologies to ensure a robust, scalable, and stylish foundation for showcasing our renovation projects, services, and company information.
+
+![zbc-readme](https://github.com/DevrMichael/zbc/assets/88589247/dfdc4bfd-2b5e-4409-a44d-7b0131bb09c2)
 
 ## Getting Started
 
-First, run the development server:
+To run the development server, execute one of the following commands:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- `npm run dev`
+- `yarn dev`
+- `pnpm dev`
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) in your browser to view the project live. As you make changes to `pages/index.tsx`, you'll see the updates in real-time. This instant feedback loop is ideal for development, allowing for rapid iteration.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+### API Routes
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Our website utilizes Next.js's [API routes](https://nextjs.org/docs/api-routes/introduction) feature for dynamic data fetching and server-side operations. The sample endpoint at [http://localhost:3000/api/hello](http://localhost:3000/api/hello) (`pages/api/hello.ts`) demonstrates how to implement and customize these routes for your needs.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### TypeScript
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+TypeScript is used throughout this project to provide static type checking and enhance code quality and maintainability. This powerful addition to our development workflow ensures that we can catch errors early and maintain a high standard of code across the project.
 
-## Learn More
+### SCSS
 
-To learn more about Next.js, take a look at the following resources:
+We've chosen SCSS for styling our application due to its powerful features like variables, nesting, and mixins that make our CSS more maintainable and easier to write. This allows us to craft unique, responsive designs that perfectly fit the needs of our property renovation company's branding and user experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Font Optimization
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+We've implemented [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to optimize and serve the Inter font, enhancing our website's visual appeal and readability without compromising performance.
 
-## Deploy on Vercel
+## Learn More About Next.js
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+To deepen your understanding of Next.js and explore its comprehensive features, we recommend the following resources:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Next.js Documentation](https://nextjs.org/docs): A thorough guide covering all aspects of Next.js.
+- [Learn Next.js](https://nextjs.org/learn): An interactive tutorial that walks you through building a Next.js project from scratch.
+
+Your feedback and contributions to the [Next.js GitHub repository](https://github.com/vercel/next.js/) are highly appreciated and help make Next.js even better.
+
+## Deployment on Vercel
+
+Deploying your Next.js application is streamlined and efficient on the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme), created by the founders of Next.js. For detailed instructions on deploying your project, refer to the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
